@@ -1,6 +1,6 @@
 package com.tietoevry.serverskeletonjava.service;
 
-import com.tietoevry.serverskeletonjava.EventType;
+import com.tietoevry.serverskeletonjava.types.EventType;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Service;
 

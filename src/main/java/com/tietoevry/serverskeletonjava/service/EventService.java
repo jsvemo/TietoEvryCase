@@ -6,13 +6,12 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.json.JsonMapper;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import com.google.gson.reflect.TypeToken;
-import com.tietoevry.serverskeletonjava.EventType;
+import com.tietoevry.serverskeletonjava.types.EventType;
 import com.tietoevry.serverskeletonjava.dto.EventDTO;
 import com.tietoevry.serverskeletonjava.repository.EventRepository;
 import com.tietoevry.serverskeletonjava.repository.PersonRepository;
 import com.tietoevry.serverskeletonjava.repository.model.model.Event;
 import com.tietoevry.serverskeletonjava.repository.model.model.Person;
-import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

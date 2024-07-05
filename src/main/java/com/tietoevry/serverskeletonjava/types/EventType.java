@@ -1,4 +1,4 @@
-package com.tietoevry.serverskeletonjava;
+package com.tietoevry.serverskeletonjava.types;
 
 public enum EventType {
     PERSON_CREATED,
