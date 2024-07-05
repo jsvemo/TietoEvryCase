@@ -1,20 +1,20 @@
 package com.tietoevry.serverskeletonjava.controller;
 
-
 import com.tietoevry.serverskeletonjava.repository.model.model.Person;
 import com.tietoevry.serverskeletonjava.service.PersonService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.http.*;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-
 @RestController
-@RequestMapping("/person")
+@RequestMapping("/test")
 @RequiredArgsConstructor
-public class PersonController {
-    private String token;
+public class TestController {
+    private String dummyToken = "DummyToken";
     String tokenValue;
     List<String> eventsJson;
 
@@ -31,5 +31,4 @@ public class PersonController {
     }
 
 }
-
 
