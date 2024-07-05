@@ -10,8 +10,6 @@ import java.util.function.BiConsumer;
 
 @Service
 public class EventOperations {
-    // Autowired required services
-
     private static final Map<EventType, BiConsumer<String, String>> eventTypeActions = new HashMap<>();
 
     static {

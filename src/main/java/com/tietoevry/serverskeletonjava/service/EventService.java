@@ -68,8 +68,6 @@ public class EventService {
         eventTypeActions.get(eventType).accept(eventDTO.getSocSecNum(), eventDTO.getEventValue());
     }
 
-
-
     @Autowired
     private PersonRepository personRepository;
 
